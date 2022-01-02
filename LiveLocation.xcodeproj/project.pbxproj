@@ -16,6 +16,7 @@
 		E644A16A27818E01006E769B /* LiveLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644A16927818E01006E769B /* LiveLocationTests.swift */; };
 		E644A17427818E01006E769B /* LiveLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644A17327818E01006E769B /* LiveLocationUITests.swift */; };
 		E644A17627818E01006E769B /* LiveLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644A17527818E01006E769B /* LiveLocationUITestsLaunchTests.swift */; };
+		E644A18327818E18006E769B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E644A18227818E18006E769B /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E644A16F27818E01006E769B /* LiveLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E644A17327818E01006E769B /* LiveLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationUITests.swift; sourceTree = "<group>"; };
 		E644A17527818E01006E769B /* LiveLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E644A18227818E18006E769B /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		E644A15127818DFA006E769B /* LiveLocation */ = {
 			isa = PBXGroup;
 			children = (
+				E644A18227818E18006E769B /* LocationManager.swift */,
 				E644A15227818DFA006E769B /* AppDelegate.swift */,
 				E644A15427818DFA006E769B /* SceneDelegate.swift */,
 				E644A15627818DFA006E769B /* ViewController.swift */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E644A18327818E18006E769B /* LocationManager.swift in Sources */,
 				E644A15727818DFA006E769B /* ViewController.swift in Sources */,
 				E644A15327818DFA006E769B /* AppDelegate.swift in Sources */,
 				E644A15527818DFA006E769B /* SceneDelegate.swift in Sources */,
@@ -442,6 +446,8 @@
 				DEVELOPMENT_TEAM = XFBW2M8QN9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveLocation/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) need location permission to access your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) need location permission to access your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +476,8 @@
 				DEVELOPMENT_TEAM = XFBW2M8QN9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiveLocation/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) need location permission to access your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) need location permission to access your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
