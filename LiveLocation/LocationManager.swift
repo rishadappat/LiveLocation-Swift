@@ -1,9 +1,9 @@
 //
 //  LocationManager.swift
-//  SmartOfficer
+//  LiveLocation-Swift
 //
 //  Created by Rishad Appat on 23/07/2020.
-//  Copyright © 2020 ADP. All rights reserved.
+//  Copyright © 2020. All rights reserved.
 //
 
 import UIKit
